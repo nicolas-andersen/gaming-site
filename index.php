@@ -19,7 +19,7 @@
 	<div class="sub-container-text">
 	<h1>ATOMIC ROCKET</h1><br>
 	<p>Nok måske den stærkeste gaming computer på denne planet.</p>
-	<a href="https://sharkgaming.dk" class="button">Køb her</a>
+	<a href="atomic-rocket.php" class="button">Køb her</a>
 	</div>
 </div>
 <div style="background-size: 1000px; background-image: url('media/computer2.jpg');" class="sub-container">
