@@ -35,7 +35,7 @@
 	<div class="sub-container-text">
 	<h1>ATOMIC WATERMELON</h1><br>
 	<p>En gaming bærebar uden kompromis!</p>
-	<a href="https://sharkgaming.dk" class="button">Køb her</a>
+	<a href="atomic-watermelon.php" class="button">Køb her</a>
 	</div>
 </div>
 </div>
