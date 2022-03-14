@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<title>ROCKET JUMPER</title>
+<title>ATOMIC WATERMELON</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,9 +17,9 @@
 <div class="main-container">
 <div class="main-container-row">
 <div class="sub-container-info">
-	<img class="sub-container-info-image" src="media/rocket-jumper-alpha.png">
+	<img class="sub-container-info-image" src="media/atomic-watermelon-alpha.png">
 	<div class="sub-container-info-text">
-	<h1>ROCKET JUMPER</h1>
+	<h1>ATOMIC WATERMELON</h1>
 	<p style="color: #39ff76;">OWN DINE MODSTANDERE!</p>
 	<br>
 	<ul>
@@ -28,7 +28,7 @@
 	<li>Ekstrem støjsvag corsair x593 gaming socks</li>
 	</ul>
 	<br>
-	<h1 style="font-family: Roboto;">14.999.-</h1>
+	<h1 style="font-family: Roboto;">7.999.-</h1>
 	<a class="button">Læg i kurv</a>
 	</div>
 </div>
