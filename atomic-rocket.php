@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ï»¿<!DOCTYPE html>
 <html>
 <head>
 <title>ATOMIC ROCKET</title>
@@ -24,12 +24,12 @@
 	<br>
 	<ul>
 	<li>Branchens bedste Silver Cert. PSU</li>
-	<li>High-end Gaming RAM med aluminiums-kølerprofil</li>
-	<li>Ekstrem støjsvag corsair x593 gaming socks</li>
+	<li>High-end Gaming RAM med aluminiums-kÃ¸lerprofil</li>
+	<li>Ekstrem stÃ¸jsvag corsair x593 gaming socks</li>
 	</ul>
 	<br>
 	<h1 style="font-family: Roboto;">11.999.-</h1>
-	<a class="button">Læg i kurv</a>
+	<a class="button">LÃ¦g i kurv</a>
 	</div>
 </div>
 </div>
@@ -48,8 +48,8 @@
 		<td>Intel Core i7-11700F Processor</td>
 	</tr>
 	<tr>
-		<td>CPU-KØLING</td>
-		<td>Arctic Liquid Freezer II 120 CPU Køler - Vandkøler</td>
+		<td>CPU-KÃ˜LING</td>
+		<td>Arctic Liquid Freezer II 120 CPU KÃ¸ler - VandkÃ¸ler</td>
 	</tr>
 	<tr>
 		<td>BUNDKORT</td>
@@ -64,7 +64,7 @@
 		<td>Kingston Fury Beast 2x8GB 3200MHz RAM</td>
 	</tr>
 	<tr>
-		<td>STRØMFORSYNING</td>
+		<td>STRÃ˜MFORSYNING</td>
 		<td>Silverstone ST75F-P 750W</td>
 	</tr>
 	<tr>
@@ -77,7 +77,7 @@
 	</tr>
 	<tr>
 		<td>NETKORT</td>
-		<td>Realtek® 8111H Gigabit LAN controller</td>
+		<td>RealtekÂ® 8111H Gigabit LAN controller</td>
 	</tr>
 	</table>
 	</div>
