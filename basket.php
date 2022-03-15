@@ -54,6 +54,7 @@ if ($products_size == 1) {
 for ($i = 1; $i <= $items_size; $i++) {
 	if (isset($_COOKIE[strval($i)])) {
 		$image = mysqli_fetch_array(mysqli_query($connection, "SELECT image FROM products where id IN(" . $i . ")"))[0];
+		echo $image;
 
 		echo "<div class=\"basket-item\">". 
 			 "<img src=\"" . $image . "\" class=\"basket-item-image\">" .
