@@ -181,6 +181,7 @@ th {
 
 .sub-container-basket {
 	display: flex;
+	overflow: hidden;
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: start;
@@ -198,7 +199,6 @@ th {
 
 .basket-item {
 	display: flex;
-	flex: 1;
 	flex-direction: row;
 	justify-content: start;
 	width: 100%;
