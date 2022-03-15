@@ -11,11 +11,13 @@ if (!$connection) {
 }
 
 $items_size = 3;
+$product_olga = 0;
 $products_size = 0;
 
 for ($i = 1; $i <= $items_size; $i++) {
 	if (isset($_COOKIE[strval($i)])) {
 		$products_size += $_COOKIE[strval($i)];
+		$product_olga += 1;
 	}
 }
 ?>
@@ -37,7 +39,7 @@ for ($i = 1; $i <= $items_size; $i++) {
 
 <div class="main-container">
 <div class="main-container-row">
-<div class="sub-container-basket">
+<div class="sub-container-basket" style="height: <?php products_olga * 115 + 300 ?>">
 <div class="sub-container-basket-title">
 <h1>Kurv</h1>
 <p style="color: #39ff76;"><?php
