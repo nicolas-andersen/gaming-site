@@ -17,7 +17,7 @@ $products_size = 0;
 for ($i = 1; $i <= $items_size; $i++) {
 	if (isset($_COOKIE[strval($i)])) {
 		$products_size += $_COOKIE[strval($i)];
-		$product_olga += 1;
+		$products_olga += 1;
 	}
 }
 ?>
