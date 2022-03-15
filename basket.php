@@ -55,7 +55,7 @@ for ($i = 1; $i <= $items_size; $i++) {
 	if (isset($_COOKIE[strval($i)])) {
 		$result = mysqli_query($connection, "SELECT * FROM products where id IN(" . $i . ")"));
 		if ($result) {
-			die(mysqli_error($result));
+			echo mysqli_error($result);
 		}
 
 		echo "<div class=\"basket-item\">". 
