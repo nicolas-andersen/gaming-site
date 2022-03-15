@@ -62,7 +62,7 @@ for ($i = 1; $i <= $items_size; $i++) {
 
 		echo "<div class=\"basket-item\">". 
 			 "<img src=\"media/" . $array[2] . "\" class=\"basket-item-image\">" .
-			 "<p>" . $array[1] . "</p>" .
+			 "<h1>" . $array[1] . "</h1>" .
 			 "</div>";
 	}
 }
