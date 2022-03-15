@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 $connection = mysqli_connect("localhost", "sales", "@Chungus123");
 if (!$connection) {
 	die("Epic embed fail");
