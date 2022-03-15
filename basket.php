@@ -53,13 +53,15 @@ if ($products_size == 1) {
 <?php
 for ($i = 1; $i <= $items_size; $i++) {
 	if (isset($_COOKIE[strval($i)])) {
-		$result = mysqli_query($connection, "SELECT * FROM products where id IN(" . $i . ")"));
-		if ($result) {
-			echo mysqli_error($result);
+		$result = mysqli_query($connection, "SELECT * FROM sales_db.products where id IN(" . $i . ")");
+		if (!$result) {
+			die(mysqli_error($connection));
 		}
 
+		$array = mysqli_fetch_array($result);
+
 		echo "<div class=\"basket-item\">". 
-			 "<img src=\"" . $result[0] . "\" class=\"basket-item-image\">" .
+			 "<img src=\"media/" . $array[2] . "\" class=\"basket-item-image\">" .
 			 "</div>";
 	}
 }
