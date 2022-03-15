@@ -3,7 +3,7 @@
 <?php
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
-error_reporting(e_all);
+error_reporting('e_all');
 
 $connection = mysqli_connect("localhost", "sales", "@Chungus123");
 if (!$connection) {
