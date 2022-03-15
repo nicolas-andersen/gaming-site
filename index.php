@@ -41,10 +41,6 @@
 </div>
 
 <?php
-$connection = mysqli_connect("localhost", "sales", "@Chungus123");
-if (!$connection) {
-	die("fejl i mysql_connect\n");
-} 
 ?>
 </body>
 </html>

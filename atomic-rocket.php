@@ -29,7 +29,7 @@
 	</ul>
 	<br>
 	<h1 style="font-family: Roboto;">11.999.-</h1>
-	<a class="button">Læg i kurv</a>
+	<a href="add-basket.php?id=1" class="button">Læg i kurv</a>
 	</div>
 </div>
 </div>

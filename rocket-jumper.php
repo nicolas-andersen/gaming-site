@@ -28,8 +28,8 @@
 	<li>Ekstrem støjsvag corsair x593 gaming socks</li>
 	</ul>
 	<br>
-	<h1 style="font-family: Roboto;">14.999.-</h1>
-	<a class="button">Læg i kurv</a>
+	<h1 style="font-family: Roboto;">7.999.-</h1>
+	<a href="add-basket.php?id=2" class="button">Læg i kurv</a>
 	</div>
 </div>
 </div>
