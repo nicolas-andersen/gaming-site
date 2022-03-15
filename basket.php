@@ -11,7 +11,7 @@ if (!$connection) {
 }
 
 $items_size = 3;
-$product_olga = 0;
+$products_olga = 0;
 $products_size = 0;
 
 for ($i = 1; $i <= $items_size; $i++) {
