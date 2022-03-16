@@ -73,7 +73,7 @@ for ($i = 1; $i <= $items_size; $i++) {
 			 "<p style=\"color: #39ff76;\">" . $stock . "</p>" .
 			 "</div>" .
 			 "<div class=\"basket-item-price\">" .
-			 "<p>" . $array[4] . "</p>" .
+			 "<h2>" . $array[4] . "</h2>" .
 			 "</div>" .
 			 "</div>";
 	}
