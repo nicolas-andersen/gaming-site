@@ -69,11 +69,11 @@ for ($i = 1; $i <= $items_size; $i++) {
 		echo "<div class=\"basket-item\">". 
 			 "<img src=\"media/" . $array[2] . "\" class=\"basket-item-image\">" .
 			 "<div class=\"basket-item-text\">" .
-			 "<p>" . $array[1] . "</p><br>" .
+			 "<h2>" . $array[1] . "</h2><br>" .
 			 "<p style=\"color: #39ff76;\">" . $stock . "</p>" .
 			 "</div>" .
 			 "<div class=\"basket-item-price\">" .
-			 "<h2>" . $array[4] . "</h2>" .
+			 "<h2>" . $array[4] . ".-</h2>" .
 			 "</div>" .
 			 "</div>";
 	}
