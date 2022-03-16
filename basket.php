@@ -17,7 +17,7 @@ $products_size = 0;
 for ($i = 1; $i <= $items_size; $i++) {
 	if (isset($_COOKIE[strval($i)])) {
 		$products_size += $_COOKIE[strval($i)];
-		$products_olga += 1;
+		$products_unique += 1;
 	}
 }
 ?>
@@ -76,6 +76,8 @@ for ($i = 1; $i <= $items_size; $i++) {
 			 "<h2>" . $array[4] . ".-</h2>" .
 			 "</div>" .
 			 "</div>";
+
+		
 	}
 }
 ?>
