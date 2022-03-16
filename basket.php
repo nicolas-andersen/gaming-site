@@ -63,7 +63,7 @@ for ($i = 1; $i <= $items_size; $i++) {
 		$array = mysqli_fetch_array($result);
 		$stock = "Ikke på lager";
 		if ($array[3] > 0) {
-			$stock = "På lager"
+			$stock = "På lager";
 		}
 
 		echo "<div class=\"basket-item\">". 
