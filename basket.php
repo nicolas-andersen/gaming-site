@@ -61,12 +61,16 @@ for ($i = 1; $i <= $items_size; $i++) {
 		}
 
 		$array = mysqli_fetch_array($result);
+		$stock = "Ikke på lager";
+		if ($array[3] > 0) {
+			$stock = "På lager"
+		}
 
 		echo "<div class=\"basket-item\">". 
 			 "<img src=\"media/" . $array[2] . "\" class=\"basket-item-image\">" .
 			 "<div class=\"basket-item-text\">" .
 			 "<p>" . $array[1] . "</p><br>" .
-			 "<p style=\"color: #39ff76;\">På lager</p>" .
+			 "<p style=\"color: #39ff76;\">" . $stock . "</p>" .
 			 "</div>" .
 			 "</div>";
 	}
