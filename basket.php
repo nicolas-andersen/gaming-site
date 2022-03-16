@@ -13,6 +13,7 @@ if (!$connection) {
 $items_size = 3;
 $products_unique = 0;
 $products_size = 0;
+$total_price = 0;
 
 for ($i = 1; $i <= $items_size; $i++) {
 	if (isset($_COOKIE[strval($i)])) {
@@ -66,6 +67,8 @@ for ($i = 1; $i <= $items_size; $i++) {
 			$stock = "På lager";
 		}
 
+		$total_price += $array * $_COOKIE[strval($i)]; 
+
 		echo "<div class=\"basket-item\">". 
 			 "<img src=\"media/" . $array[2] . "\" class=\"basket-item-image\">" .
 			 "<div class=\"basket-item-text\">" .
@@ -87,7 +90,7 @@ for ($i = 1; $i <= $items_size; $i++) {
 <h2>Total DKK</h2>
 </div>
 <div class="basket-item-price">
-<h2>21356.-</h2>
+<h2><?php echo $total_price . ".-" ?></h2>
 </div>
 </div>
 </div>
