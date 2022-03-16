@@ -10,7 +10,7 @@
 <nav>
 <div class="topnav">
 <div class="logo"><a href="index.php">DINOGAMING</a></div>
-<a img href="basket.php" class="item"><src="media/basket.svg"></a>
+<a href="basket.php" class="item"><img src="media/basket.svg"></a>
 </div>
 </nav>
 <div class="main-container">
