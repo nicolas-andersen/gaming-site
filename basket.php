@@ -80,6 +80,12 @@ for ($i = 1; $i <= $items_size; $i++) {
 }
 ?>
 
+<div class="basket-item">
+<h2>Total DKK</h2>
+<div class="basket-item-price">
+<h2>21356.-</h2>
+</div>
+</div>
 </div>
 </div>
 </div>
