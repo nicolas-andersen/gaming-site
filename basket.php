@@ -11,7 +11,7 @@ if (!$connection) {
 }
 
 $items_size = 3;
-$products_olga = 0;
+$products_unique = 0;
 $products_size = 0;
 
 for ($i = 1; $i <= $items_size; $i++) {
@@ -39,7 +39,7 @@ for ($i = 1; $i <= $items_size; $i++) {
 
 <div class="main-container">
 <div class="main-container-row">
-<div class="sub-container-basket" style="height: <?php echo $products_olga * 115 + 300 . "px" ?>">
+<div class="sub-container-basket" style="height: <?php echo $products_unique * 115 + 300 . "px" ?>">
 <div class="sub-container-basket-title">
 <h1>Kurv</h1>
 <p style="color: #39ff76;"><?php
