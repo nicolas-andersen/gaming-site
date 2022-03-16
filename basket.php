@@ -85,11 +85,11 @@ for ($i = 1; $i <= $items_size; $i++) {
 }
 ?>
 
-<div class="basket-item">
+<div class="basket-item" style="height: 130px;">
 <div class="basket-item-text">
 <h2>Total DKK</h2>
 </div>
-<div class="basket-item-price" style="height: 130px;">
+<div class="basket-item-price">
 <h2><?php echo $total_price . ".-" ?></h2>
 <a href="add-basket.php?id=2" class="button">Læg i kurv</a>
 </div>
