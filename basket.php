@@ -24,7 +24,7 @@ for ($i = 1; $i <= $items_size; $i++) {
 
 <html>
 <head>
-<title>ATOMIC WATERMELON</title>
+<title>Kurv</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -33,7 +33,7 @@ for ($i = 1; $i <= $items_size; $i++) {
 <nav>
 <div class="topnav">
 <div class="logo"><a href="index.php">DINOGAMING</a></div>
-<div class="item"><img src="media/basket.svg"></div>
+<div class="item"><img href="basket.php" src="media/basket.svg"></div>
 </div>
 </nav>
 
@@ -69,7 +69,7 @@ for ($i = 1; $i <= $items_size; $i++) {
 		echo "<div class=\"basket-item\">". 
 			 "<img src=\"media/" . $array[2] . "\" class=\"basket-item-image\">" .
 			 "<div class=\"basket-item-text\">" .
-			 "<h2>" . $array[1] . "</h2><br>" .
+			 "<h2>" . $array[1] . "</h2>" .
 			 "<p style=\"color: #39ff76;\">" . $stock . "</p>" .
 			 "</div>" .
 			 "<div class=\"basket-item-price\">" .
