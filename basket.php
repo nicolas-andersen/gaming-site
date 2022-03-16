@@ -67,7 +67,7 @@ for ($i = 1; $i <= $items_size; $i++) {
 			$stock = "På lager";
 		}
 
-		$total_price += $array * $_COOKIE[strval($i)]; 
+		$total_price += $array[4] * $_COOKIE[strval($i)]; 
 
 		echo "<div class=\"basket-item\">". 
 			 "<img src=\"media/" . $array[2] . "\" class=\"basket-item-image\">" .
