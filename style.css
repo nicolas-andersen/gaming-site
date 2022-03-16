@@ -217,6 +217,8 @@ th {
 }
 
 .basket-item-price {
+	display: flex;
+	flex-direction: column;
 	margin-right: 40px;
 	right: 0;
 }
