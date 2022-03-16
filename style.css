@@ -215,6 +215,10 @@ th {
 	height: 100%;
 	width: 100%;
 }
-	
+
+.basket-item-price {
+	height: 100%;
+	right: 0;
+}
 	
 	

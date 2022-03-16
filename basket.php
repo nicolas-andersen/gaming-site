@@ -71,6 +71,9 @@ for ($i = 1; $i <= $items_size; $i++) {
 			 "<div class=\"basket-item-text\">" .
 			 "<p>" . $array[1] . "</p><br>" .
 			 "<p style=\"color: #39ff76;\">" . $stock . "</p>" .
+			 "<div class=\"basket-item-price\">" .
+			 "<p>" . $array[4] . "</p>" .
+			 "</div>" .
 			 "</div>" .
 			 "</div>";
 	}
