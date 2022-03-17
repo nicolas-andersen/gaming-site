@@ -56,6 +56,10 @@ if ($products_size == 1) {
 <?php
 for ($i = 1; $i <= $items_size; $i++) {
 	if (isset($_COOKIE[strval($i)])) {
+		if ($_COOKIE[strval($i)] < 1) {
+			continue;
+		}
+
 		$result = mysqli_query($connection, "SELECT * FROM sales_db.products where id IN(" . $i . ")");
 		if (!$result) {
 			die(mysqli_error($connection));
@@ -75,8 +79,13 @@ for ($i = 1; $i <= $items_size; $i++) {
 			 "<h2>" . $array[1] . " x " . $_COOKIE[strval($i)] . "</h2>" .
 			 "<p style=\"color: #39ff76;\">" . $stock . "</p>" .
 			 "</div>" .
+			 "<div class=\"basket-item-amount\">" .
+			 "<a href=\"remove-basket.php?id=" . $i  . "\" class=\"round-button\">-</a>" .
+			 "<h2>" . $_COOKIE[strval($i)] . "</h2>" .
+			 "<a href=\"add-basket.php?id=" . $i  . "\" class=\"round-button\">+</a>" .
+			 "</div>" .
 			 "<div class=\"basket-item-price\">" .
-			 "<h2>" . $array[4] . ".-</h2>" .
+			 "<h2>" . $array[4] * $_COOKIE[strval($i)] . ".-</h2>" .
 			 "</div>" .
 			 "</div>";
 
