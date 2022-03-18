@@ -1,5 +1,4 @@
-
-<?php
+﻿<?php
 $connection = mysqli_connect("localhost", "sales", "@Chungus123");
 if (!$connection) {
 	die("Could not connect to mysql");
@@ -28,4 +27,3 @@ for ($i = 0; $i < $items_size; $i++) {
 	mysqli_query($connection, "UPDATE sales_db.products SET stock=" . $stock - $cookie . " WHERE id=" . $i);
 
 ?>
-
