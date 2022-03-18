@@ -100,7 +100,7 @@ for ($i = 1; $i <= $items_size; $i++) {
 </div>
 <div class="basket-item-price">
 <h2><?php echo $total_price . ".-" ?></h2>
-<a href="https://paypal.dk" class="button">Betal</a>
+<a href="receipt.php" class="button">Betal</a>
 </div>
 </div>
 </div>
